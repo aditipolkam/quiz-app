@@ -6,8 +6,8 @@ import {
   CardBody,
   CardFooter,
   Text,
-  Button,
 } from "@chakra-ui/react";
+import CustomButton from "./CustomButton";
 
 const QuizViewCard = ({
   id,
@@ -30,7 +30,7 @@ const QuizViewCard = ({
         <Text>{questionCount} question(s)</Text>
       </CardBody>
       <CardFooter>
-        <Button>Take Quiz</Button>
+        <CustomButton label="Take Quiz" />
       </CardFooter>
     </Card>
   );

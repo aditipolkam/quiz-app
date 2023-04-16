@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getQuizes } from "../api/getQuizes";
 import { SimpleGrid } from "@chakra-ui/react";
 import { Quiz } from "../types";
-import QuizViewCard from "./QuizViewCard";
+import QuizViewCard from "./common/QuizViewCard";
 
 const Home = () => {
   const [quizes, setQuizes] = useState<Quiz[]>();
